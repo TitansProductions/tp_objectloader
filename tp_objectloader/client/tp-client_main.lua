@@ -112,6 +112,10 @@ Citizen.CreateThread(function()
 
       end
 
+      if sleep then
+         Citizen.Wait(Config.WaitTime)
+      end
+
 
    end
 
