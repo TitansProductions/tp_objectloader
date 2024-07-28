@@ -66,9 +66,8 @@ Citizen.CreateThread(function()
    
       Wait(Config.WaitTime)
 
-      local player     = PlayerPedId()
-      local sleep      = true
-
+      local player = PlayerPedId()
+			
       if GetTableLength(Config.Locations) > 0 then
 
          local coords     = GetEntityCoords(player)
