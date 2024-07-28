@@ -4,6 +4,13 @@ Config = {}
 --[[ General Settings ]]--
 ---------------------------------------------------------------
 
+-- The wait time for checking nearby objects.
+Config.WaitTime = 2000 -- Time in milliseconds.
+
+---------------------------------------------------------------
+--[[ Object Locations ]]--
+---------------------------------------------------------------
+
 Config.Locations = {
 
     { -- TP MyDog ( Fence for the store dog location )
