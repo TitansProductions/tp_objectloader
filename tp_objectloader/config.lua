@@ -23,7 +23,7 @@ Config.Locations = {
 
         PlaceObjectOnGroundProperly = false,
 
-        ObjectRenderDistance = 30,
+        ObjectRenderDistance = 40,
     },
 
     { -- TP MyDog ( Fence for the store dog location )
@@ -36,7 +36,7 @@ Config.Locations = {
 
         PlaceObjectOnGroundProperly = false,
 
-        ObjectRenderDistance = 30,
+        ObjectRenderDistance = 40,
     },
 
 }
