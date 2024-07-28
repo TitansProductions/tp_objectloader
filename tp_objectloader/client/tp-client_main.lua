@@ -64,7 +64,7 @@ Citizen.CreateThread(function()
 
    while true do
    
-      Wait(0)
+      Wait(Config.WaitTime)
 
       local player     = PlayerPedId()
       local sleep      = true
@@ -111,11 +111,6 @@ Citizen.CreateThread(function()
          end
 
       end
-
-      if sleep then
-         Citizen.Wait(Config.WaitTime)
-      end
-
 
    end
 
